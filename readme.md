@@ -9,3 +9,9 @@ by requesting id/sequence numbers.
 
 I would also need to know the number of data rows being sent. I imagine
 connecting a database to store meta data about the files.
+
+I have included testing data in the DataFolder which should automatically be 
+read. This simulates a call to the database.
+
+I have included testing requests which should hit the data I have created. This
+should simplify the testing process.

@@ -1,7 +1,0 @@
-Requests here can be used to test against the api
-
-# Valid request, will return file data
-curl --location --request GET 'http://127.0.0.1:5000/file?fileName=2021-07-05-20_13_54.csv'
-
-# Won't hit a real file, reflects file request with No file with that name.
-curl --location --request GET 'http://127.0.0.1:5000/file?fileName=fake.csv'
